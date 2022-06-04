@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*,*::before,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+    font-size: 14px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: o auto;
+    background-color: #1e202a;
+    color: white;
+}
+h1{
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+.dark{
+    margin-bottom: 20px;
+}
+.overview{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card{
+    background-color: #252a41;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cardlight{
+    height: 4px; 
+}
+.cardlight1{
+    background-color: #198ff5;
+}
+.cardlight2{
+    background-color: #1ca0f2;
+}
+.cardlight3{
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+.cardlight4{
+    background-color: #c4032a;
+}
+.cardcontent{
+    padding: 20px 15px;
+    display: grid;
+    gap: 12px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.icons p{
+    font-size: 0.8rem
+}
+.followers h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.followers p{
+    font-size: 0.9rem;
+    margin-bottom: 7px;
+}
+.count{
+    font-size: 0.8rem;
+    color: #1db489;
+}
+.count-low{
+    color: #dc414c;
+}
+.overview-card, .cardcontent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.card-container{
+    display: grid;
+    gap:16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.rating{
+    font-size: 0.8rem;
+    color: #1db489;
+}
+.ratinglow{
+    color: #dc414c;
+}
+section{
+    display: grid;
+    gap: 16px;
+}
+
+
+
+   
